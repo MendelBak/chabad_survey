@@ -28,19 +28,21 @@ class FormField extends Component {
           />
         );
 
-      case 'range':
-        return (
-          <Range
-            ey={this.props.id}
-            id={this.props.id}
-            label={this.props.label}
-            question={this.props.question}
-          />
-        );
+      // Commented out since not using, but I put a lot of time to figure out how it works, so I'm saving it for the future.
+      // If used in the future, style will need to be set properly.
+      // case 'range':
+      //   return (
+      //     <Range
+      //       key={this.props.id}
+      //       id={this.props.id}
+      //       label={this.props.label}
+      //       question={this.props.question}
+      //     />
+      //   );
 
       default:
         return (
-          <div>
+          <div className='col s12 m6 l6'>
             <label>{this.props.question}</label>
             <div className='input-field'>
               <FormikField

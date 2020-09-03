@@ -4,7 +4,7 @@ import { Field as FormikField } from 'formik';
 class FormField extends Component {
   render() {
     return (
-      <div style={{ marginBottom: '2%' }}>
+      <div style={{ marginBottom: '2%' }} className='col s12 m6 l6'>
         <label>{this.props.question}</label>
         <div className='switch'>
           <label>

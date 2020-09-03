@@ -5,7 +5,7 @@ import _ from 'lodash';
 class Select extends Component {
   render() {
     return (
-      <div>
+      <div className='col s12 m6 l6'>
         <label>{this.props.question}</label>
         <div className='input-field'>
           <FormikField component='select' multiple={this.props.multipleSelect}>

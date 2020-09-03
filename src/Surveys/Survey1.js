@@ -15,6 +15,13 @@ const Survey1 = {
     },
     2: {
       id: 2,
+      label: 'Chabad Background',
+      question:
+        'Were you primarily raised in the "Lubavitch community, going to Lubavitch schools?',
+      type: 'switch',
+    },
+    3: {
+      id: 3,
       label: 'Education Level',
       question: 'What is the highest level of education you have?',
       type: 'select',
@@ -27,8 +34,8 @@ const Survey1 = {
         phd: 'Phd',
       },
     },
-    3: {
-      id: 3,
+    4: {
+      id: 4,
       label: 'Industry',
       question: 'What industry do you work in?',
       type: 'select',
@@ -51,8 +58,28 @@ const Survey1 = {
         other: 'Other',
       },
     },
-    4: {
-      id: 4,
+    5: {
+      id: 5,
+      label: 'Specialized Trade Training',
+      question:
+        'Have you earned a specialized trade certification, such as electrical, plumbing, metal working, certification?',
+      type: 'switch',
+    },
+    6: {
+      id: 6,
+      label: 'Education Necessary?',
+      question: 'Do you believe your education contributed to your success?',
+      type: 'switch',
+    },
+    7: {
+      id: 7,
+      label: 'Additional Education',
+      question:
+        'Do you feel your education was sufficient to help prepare you for your professional career?',
+      type: 'switch',
+    },
+    8: {
+      id: 8,
       label: 'Years of Work Experience',
       question: 'How many years have you worked in your current industry?',
       type: 'select',
@@ -65,42 +92,14 @@ const Survey1 = {
         15: '15+',
       },
     },
-    5: {
-      id: 5,
-      label: 'Yearly Salary',
-      question: 'What is your current yearly salary?',
-      type: 'select',
-      multipleSelect: false,
-      options: {
-        20000: '$20,000 - $40,000',
-        40000: '$40,000 - $60,000',
-        60000: '$60,000 - $80,000',
-        80000: '$80,000 - $100,000',
-        100000: '$100,000 - $150,000',
-        150000: '$150,000+',
-      },
-    },
-    6: {
-      id: 6,
-      label: 'Benefits',
-      question:
-        'Does your job provide you benefits? (Health insurance, 401(k), etc.',
-      type: 'switch',
-    },
-    7: {
-      id: 7,
-      label: 'Education Necessary?',
-      question: 'Do you believe your education contributed to your success?',
-      type: 'switch',
-    },
-    8: {
-      id: 8,
+    9: {
+      id: 9,
       label: 'Are you happy with the job opportunities you have?',
       type: 'switch',
       question: 'Are you happy with the industry you work in?',
     },
-    9: {
-      id: 9,
+    10: {
+      id: 10,
       label: 'Dissatisfaction',
       question:
         'What, if anything, are you dissatisfied with in your preparation for professional work?',
@@ -114,25 +113,33 @@ const Survey1 = {
         other: 'Other',
       },
     },
-    10: {
-      id: 10,
-      label: 'Specialized Trade Training',
-      question:
-        'Have you earned a specialized trade certification, such as electrical, plumbing, metal working, certification?',
-      type: 'switch',
-    },
     11: {
       id: 11,
-      label: 'Comments',
-      question: 'Do you have any comments?',
-      type: 'text',
+      label: 'Yearly Salary',
+      question: 'What is your current yearly salary?',
+      type: 'select',
+      multipleSelect: false,
+      options: {
+        20000: '$20,000 - $40,000',
+        40000: '$40,000 - $60,000',
+        60000: '$60,000 - $80,000',
+        80000: '$80,000 - $100,000',
+        100000: '$100,000 - $150,000',
+        150000: '$150,000+',
+      },
     },
     12: {
       id: 12,
-      label: 'Additional Education',
+      label: 'Benefits',
       question:
-        'Do you feel your education was sufficient to help prepare you for your professional career?',
+        'Does your job provide you benefits? (Health insurance, 401(k), etc.',
       type: 'switch',
+    },
+    13: {
+      id: 13,
+      label: 'Comments',
+      question: 'Do you have any comments?',
+      type: 'text',
     },
   },
 };

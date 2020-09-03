@@ -22,8 +22,9 @@ function renderFormField() {
 }
 
 const Form = () => (
-  <div>
+  <div className='row'>
     <Formik
+      // TODO: this initial values option is incorrect.
       initialValues={{ 0: '', 1: '' }}
       onSubmit={async (values) => {
         console.log(values);
@@ -40,6 +41,6 @@ const Form = () => (
       </FormikForm>
     </Formik>
   </div>
-)
+);
 
 export default Form;
