@@ -3,6 +3,7 @@ import FormField from './FormField';
 import Survey1 from '../Surveys/Survey1';
 import _ from 'lodash';
 import { Formik, Form as FormikForm } from 'formik';
+import { Link } from 'react-router-dom';
 
 function renderFormField() {
   // For each survey item, render one form field.
@@ -22,7 +23,7 @@ function renderFormField() {
 }
 
 const Form = () => (
-  <div className='row'>
+  <div className='row' style={{ display: 'flex' }}>
     <Formik
       // TODO: this initial values option is incorrect.
       initialValues={{ 0: '', 1: '' }}
@@ -34,10 +35,15 @@ const Form = () => (
     >
       <FormikForm>
         {renderFormField()}
-        <button type='submit' className='waves-effect teal btn center'>
-          Submit
-          <i className='material-icons right'>done_all</i>
-        </button>
+        <Link to={'/surveySummary'}>
+          <button
+            type='submit'
+            className='btn-large hoverable waves-effect waves-light'
+          >
+            Submit
+            <i className='material-icons right'>done_all</i>
+          </button>
+        </Link>
       </FormikForm>
     </Formik>
   </div>

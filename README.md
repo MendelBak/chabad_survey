@@ -4,12 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Todo
 Survey form validation
-Landing page explaining the project
 Node backend to store survey data in Mongo Database.
 Retrieve data from MongoDB and populate Survey Summary charts.
-Rearrange survey questions
 Login with Google/Facebook OAuth / track cell phone numbers to allow one survey submission per number.
-Deploy site.
 Send to COL etc.
 Mailing list?
 

@@ -44,7 +44,7 @@ class FormField extends Component {
         return (
           <div className='col s12 m6 l6'>
             <label>{this.props.question}</label>
-            <div className='input-field'>
+            <div className='input-field' style={{ display: 'flex' }}>
               <FormikField
                 id={this.props.id}
                 name={this.props.id}

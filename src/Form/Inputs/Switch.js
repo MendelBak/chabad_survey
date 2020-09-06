@@ -6,7 +6,7 @@ class FormField extends Component {
     return (
       <div style={{ marginBottom: '2%' }} className='col s12 m6 l6'>
         <label>{this.props.question}</label>
-        <div className='switch'>
+        <div className='switch' style={{ display: 'flex' }}>
           <label>
             No
             <FormikField type='checkbox' name={this.props.id} />

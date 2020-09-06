@@ -7,7 +7,7 @@ class Select extends Component {
     return (
       <div className='col s12 m6 l6'>
         <label>{this.props.question}</label>
-        <div className='input-field'>
+        <div className='input-field' style={{ display: 'flex' }}>
           <FormikField component='select' multiple={this.props.multipleSelect}>
             {_.map(this.props.options, (item) => {
               return (

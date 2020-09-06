@@ -15,13 +15,6 @@ const Survey1 = {
     },
     2: {
       id: 2,
-      label: 'Chabad Background',
-      question:
-        'Were you primarily raised in the "Lubavitch community, going to Lubavitch schools?',
-      type: 'switch',
-    },
-    3: {
-      id: 3,
       label: 'Education Level',
       question: 'What is the highest level of education you have?',
       type: 'select',
@@ -34,8 +27,8 @@ const Survey1 = {
         phd: 'Phd',
       },
     },
-    4: {
-      id: 4,
+    3: {
+      id: 3,
       label: 'Industry',
       question: 'What industry do you work in?',
       type: 'select',
@@ -58,28 +51,8 @@ const Survey1 = {
         other: 'Other',
       },
     },
-    5: {
-      id: 5,
-      label: 'Specialized Trade Training',
-      question:
-        'Have you earned a specialized trade certification, such as electrical, plumbing, metal working, certification?',
-      type: 'switch',
-    },
-    6: {
-      id: 6,
-      label: 'Education Necessary?',
-      question: 'Do you believe your education contributed to your success?',
-      type: 'switch',
-    },
-    7: {
-      id: 7,
-      label: 'Additional Education',
-      question:
-        'Do you feel your education was sufficient to help prepare you for your professional career?',
-      type: 'switch',
-    },
-    8: {
-      id: 8,
+    4: {
+      id: 4,
       label: 'Years of Work Experience',
       question: 'How many years have you worked in your current industry?',
       type: 'select',
@@ -92,20 +65,15 @@ const Survey1 = {
         15: '15+',
       },
     },
-    9: {
-      id: 9,
-      label: 'Are you happy with the job opportunities you have?',
-      type: 'switch',
-      question: 'Are you happy with the industry you work in?',
-    },
-    10: {
-      id: 10,
+    5: {
+      id: 5,
       label: 'Dissatisfaction',
       question:
-        'What, if anything, are you dissatisfied with in your preparation for professional work?',
+        'Did anything missing in your education hold you back in your professional career?',
       type: 'select',
       multipleSelect: true,
       options: {
+        none: 'None',
         english: 'English (writing/reading etc)',
         math: 'Math skills',
         interpersonal: 'Interpersonal skills',
@@ -113,8 +81,8 @@ const Survey1 = {
         other: 'Other',
       },
     },
-    11: {
-      id: 11,
+    6: {
+      id: 6,
       label: 'Yearly Salary',
       question: 'What is your current yearly salary?',
       type: 'select',
@@ -127,6 +95,39 @@ const Survey1 = {
         100000: '$100,000 - $150,000',
         150000: '$150,000+',
       },
+    },
+    7: {
+      id: 7,
+      label: 'Chabad Background',
+      question:
+        'Were you primarily raised in the "Lubavitch community, going to Lubavitch schools?',
+      type: 'switch',
+    },
+    8: {
+      id: 8,
+      label: 'Specialized Trade Training',
+      question:
+        'Have you earned a specialized trade certification, such as electrical, plumbing, metal working, certification?',
+      type: 'switch',
+    },
+    9: {
+      id: 9,
+      label: 'Education Necessary?',
+      question: 'Do you believe your education contributed to your success?',
+      type: 'switch',
+    },
+    10: {
+      id: 10,
+      label: 'Additional Education',
+      question:
+        'Do you feel your education was sufficient to help prepare you for your professional career?',
+      type: 'switch',
+    },
+    11: {
+      id: 11,
+      label: 'Are you happy with the job opportunities you have?',
+      type: 'switch',
+      question: 'Are you happy with the industry you work in?',
     },
     12: {
       id: 12,

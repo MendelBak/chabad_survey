@@ -10,7 +10,7 @@ class Navbar extends Component {
               Chabad Survey
             </a>
             <a href='/#' data-target='sideLinks' className='sidenav-trigger'>
-              <i class='material-icons'>menu</i>
+              <i className='material-icons'>menu</i>
             </a>
             <ul className='right hide-on-med-and-down'>
               <li>
@@ -22,7 +22,7 @@ class Navbar extends Component {
             </ul>
 
             {/* Navbar links (same links as above regular navbar) for mobile friendly hamburger menu. */}
-            <ul class='sidenav' id='sideLinks'>
+            <ul className='sidenav' id='sideLinks'>
               <li>
                 <a href='/survey'>Survey</a>
               </li>
