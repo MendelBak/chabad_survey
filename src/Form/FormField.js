@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Field as FormikField } from 'formik';
 import Switch from './Inputs/Switch';
 import Select from './Inputs/Select';
-import Range from './Inputs/Range';
+// import Range from './Inputs/Range';
 
 class FormField extends Component {
   render() {

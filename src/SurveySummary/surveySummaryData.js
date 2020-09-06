@@ -1,5 +1,3 @@
-import SurveySummary from './SurveySummary';
-
 const surveySummaryData = {
   education: {
     labels: ['No Education', 'HS/GED', 'BA', 'MA'],

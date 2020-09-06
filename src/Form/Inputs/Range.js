@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Field as FormikField } from 'formik';
+// import { Field as FormikField } from 'formik';
 import 'nouislider/distribute/nouislider.css';
 import Nouislider from 'nouislider-react';
 
