@@ -1,24 +1,13 @@
 const surveySummaryData = {
   education: {
-    labels: ['No Education', 'HS/GED', 'BA', 'MA'],
+    labels: ['No Formal Education', 'HS/GED', 'BA', 'MA'],
     datasets: [
       {
-        data: [300, 20, 50, 100],
+        data: [100, 70, 50, 20],
         backgroundColor: ['#FF6384', '#cc65fe', '#36A2EB', '#FFCE56'],
         hoverBackgroundColor: ['#FF6384', '#cc65fe', '#36A2EB', '#FFCE56'],
       },
     ],
-    options: {
-      title: {
-        display: true,
-        position: 'top',
-        text: 'Education Achieved',
-      },
-      legend: {
-        display: true,
-        position: 'bottom',
-      },
-    },
   },
   salary: {
     labels: ['$20,000 - $40,000', '$40,000 - $80,000', '$80,000 - $150,000'],
@@ -44,28 +33,6 @@ const surveySummaryData = {
         backgroundColor: ['#FFCE56', '#FFCE56', '#FFCE56'],
       },
     ],
-    options: {
-      responsive: true,
-      maintainAspectRatio: true,
-      title: {
-        display: true,
-        position: 'top',
-        text: 'Salary Based on Education',
-      },
-      legend: {
-        display: true,
-        position: 'bottom',
-      },
-      scales: {
-        xAxes: [
-          {
-            ticks: {
-              beginAtZero: true,
-            },
-          },
-        ],
-      },
-    },
   },
 };
 

@@ -8,7 +8,9 @@ Node backend to store survey data in Mongo Database.
 Retrieve data from MongoDB and populate Survey Summary charts.
 Login with Google/Facebook OAuth / track cell phone numbers to allow one survey submission per number.
 Send to COL etc.
+Create API with captured data?
 Mailing list?
+Fix sticky footer
 
 
 ## Available Scripts

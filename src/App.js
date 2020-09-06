@@ -7,6 +7,7 @@ import Navbar from './Navbar';
 import Landing from './Landing';
 import Form from './Form/Form';
 import SurveySummary from './SurveySummary/SurveySummary';
+import Footer from './Footer';
 
 class App extends Component {
   componentDidMount() {
@@ -21,6 +22,7 @@ class App extends Component {
           <Route exact path='/' component={Landing} />
           <Route exact path='/survey' component={Form} />
           <Route exact path='/surveySummary' component={SurveySummary} />
+          <Footer />
         </div>
       </BrowserRouter>
     );
