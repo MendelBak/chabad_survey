@@ -12,7 +12,7 @@
 - [ ] Mailing list?
 - [ ] Fix sticky footer (not sticking).
 
-### Written in React.js using MaterializeCSS.
+Written in React.js using MaterializeCSS.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

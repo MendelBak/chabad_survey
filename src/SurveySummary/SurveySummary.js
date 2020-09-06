@@ -56,7 +56,7 @@ class SurveySummary extends Component {
                 />
               </div>
               <div className='card-content'>
-                <p>
+                <p> 
                   Just 23% of respondents felt their education in Chabad schools
                   helped prepare them for their professional careers.
                 </p>
@@ -106,7 +106,33 @@ class SurveySummary extends Component {
               <div className='card-image'>
                 <Bar
                   data={surveySummaryData.salary}
-                  options={surveySummaryData.salary.options}
+                  options={{
+                    title: {
+                      display: true,
+                      position: 'top',
+                      text: 'Salary Based on Education',
+                    },
+                    legend: {
+                      display: true,
+                      position: 'bottom',
+                    },
+                    scales: {
+                      xAxes: [
+                        {
+                          ticks: {
+                            beginAtZero: true,
+                          },
+                        },
+                      ],
+                      yAxes: [
+                        {
+                          ticks: {
+                            beginAtZero: true,
+                          },
+                        },
+                      ],
+                    },
+                  }}
                 />
               </div>
             </div>
