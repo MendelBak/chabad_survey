@@ -1,17 +1,20 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Survey for Chabad community to determine efficacy of education and its impact on professional career. Written in React.js
+## Survey for Chabad community to determine efficacy of education and its impact on professional career. 
 
 ## Todo
-Survey form validation
-Node backend to store survey data in Mongo Database.
-Retrieve data from MongoDB and populate Survey Summary charts.
-Login with Google/Facebook OAuth / track cell phone numbers to allow one survey submission per number.
-Send to COL etc.
-Create API with captured data?
-Mailing list?
-Fix sticky footer
+- [] Survey form validation
+- [x] Deploy site
+- [x] Create landing page 
+- [] Create Node backend to handle logic and send survey data to Mongo database.
+- [] Retrieve data from MongoDB and populate Survey Summary charts.
+- [] Login with Google/Facebook OAuth / track cell phone numbers to allow one survey submission per number.
+- [] Send to COL for distribution to Chabad community etc.
+- [] Create general Chabad API?
+- [] Mailing list?
+- [] Fix sticky footer (not sticking).
 
+### Written in React.js using MaterializeCSS.
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -24,11 +27,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
