@@ -1,16 +1,16 @@
 ## Survey for Chabad community to determine efficacy of education and its impact on professional career. 
 
 ## Todo
-- [] Survey form validation
+- [ ] Survey form validation
 - [x] Deploy site
 - [x] Create landing page 
-- [] Create Node backend to handle logic and send survey data to Mongo database.
-- [] Retrieve data from MongoDB and populate Survey Summary charts.
-- [] Login with Google/Facebook OAuth / track cell phone numbers to allow one survey submission per number.
-- [] Send to COL for distribution to Chabad community etc.
-- [] Create general Chabad API?
-- [] Mailing list?
-- [] Fix sticky footer (not sticking).
+- [ ] Create Node backend to handle logic and send survey data to Mongo database.
+- [ ] Retrieve data from MongoDB and populate Survey Summary charts.
+- [ ] Login with Google/Facebook OAuth / track cell phone numbers to allow one survey submission per number.
+- [ ] Send to COL for distribution to Chabad community etc.
+- [ ] Create general Chabad API?
+- [ ] Mailing list?
+- [ ] Fix sticky footer (not sticking).
 
 ### Written in React.js using MaterializeCSS.
 
