@@ -1,5 +1,12 @@
 ## Survey for Chabad community to determine efficacy of education and its impact on professional career. 
 
+## Visit the site 
+https://chabadsurvey.netlify.app/
+
+
+
+
+
 ## Todo
 - [ ] Survey form validation
 - [x] Deploy site
