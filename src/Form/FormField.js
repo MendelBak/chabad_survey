@@ -3,8 +3,14 @@ import { Field as FormikField } from 'formik';
 import Switch from './Inputs/Switch';
 import Select from './Inputs/Select';
 // import Range from './Inputs/Range';
+import M from 'materialize-css';
 
 class FormField extends Component {
+   componentDidMount() {
+    let selects = document.querySelectorAll('select');
+    
+    M.FormSelect.init(selects, {});
+  }
   render() {
     switch (this.props.type) {
       case 'switch':
